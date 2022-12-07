@@ -16,7 +16,7 @@ public class carclass {
 
 }// end of main
 
-
+// creating a class Car out of the main class
 class Car{
 	//Default constructor
 	public Car()

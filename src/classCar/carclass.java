@@ -18,13 +18,14 @@ public class carclass {
 
 
 class Car{
+	//Default constructor
 	public Car()
 	{
 		brand="";
 		model="";
 		amountOfFuel=0;
 	}
-	
+	//parametized constructor
 	public Car(String brand, String model, int amountOfFuel)
 	{
 		this.brand=brand;
@@ -61,14 +62,14 @@ class Car{
 		if(amountOfFuel > 0)
 			System.out.println("Car is accelerating");
 	}
-	
+	// method which will print the data
 	private void printData()
 	{
 	System.out.println("Brand: "+ brand);
 	System.out.println("Model: "+ model);
 	System.out.println("Fuel: "+ amountOfFuel);
 	}
-	
+	//this method adds an amount of fuel to whats left in the tank
 	public void refuel(int amount)
 	{
 		System.out.println("Fuel in the tank: " + amountOfFuel);
